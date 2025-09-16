@@ -7,7 +7,7 @@
 
             int[] numeros = new int[10];
 
-            System.out.println("Digite 10 números inteiros");
+            System.out.println("Digite 10 números inteiros :");
             for (int i = 0; i < 10; i++) {
                 System.out.print("Digite o " + (i + 1) + "º número: ");
                 numeros[i] = scanner.nextInt();
